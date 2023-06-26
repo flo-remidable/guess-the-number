@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+
+    <form action="" method="post" id="form">       
+        <h1>Trouve le nombre entre 1 et 100 !</h1>
+        <label for="guess-number">Entré un nombre puis valider :</label>
+        <input type="number" id="guess-number">
+        <input type="submit" value="Deviner" id="btn">
+        <button id="reset">Clique pour trouver un autre nombre</button>
+    </form>
+
+    <div>
+        <p id="plus-petit">Le nombre à deviner est inférieur !!</p>
+        <p id="plus-grand">Le nombre à deviner est supérieur !!</p>
+        <p id="bonne-reponse"> Félicitation, vous avez la bonne réponse !!</p>
+    </div> 
+
+    <div id="number-try"></div>
+
+    <script type="text/javascript" src="./assets/app.js"></script>
+</body>
+</html>

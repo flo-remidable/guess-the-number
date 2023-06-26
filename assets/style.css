@@ -1,0 +1,13 @@
+#plus-petit{
+    display: none;
+    color: red;
+}
+
+#plus-grand{
+    display: none;
+    color: red;
+}
+#bonne-reponse{
+    display: none;
+    color: green;
+}
